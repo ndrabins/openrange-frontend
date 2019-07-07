@@ -1,12 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Button from "antd/es/button";
+import Button from "@material-ui/core/Button";
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Button</Button>
+      <Button variant="contained">Button</Button>
     </div>
   );
 }
