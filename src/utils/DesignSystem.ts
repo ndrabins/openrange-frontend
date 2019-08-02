@@ -93,19 +93,12 @@ const DesignSystem = {
     3: "8px",
     4: "14px",
   },
-  shadowIos: {
+  shadow: {
     1: "0 1px 3px rgba(0, 0, 0, 0.2)",
     2: "0 3px 7px rgba(0, 0, 0, 0.2)",
     3: "0 5px 10px rgba(0, 0, 0, 0.2)",
     4: "0 10px 20px rgba(0, 0, 0, 0.2)",
     5: "0 15px 30px rgba(0, 0, 0, 0.2)",
-  },
-  shadowAndroid: {
-    1: 3,
-    2: 7,
-    3: 10,
-    4: 20,
-    5: 30,
   },
   typography: {
     caption: `

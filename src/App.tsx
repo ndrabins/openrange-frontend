@@ -1,12 +1,20 @@
 import React from "react";
-import "./App.css";
-import Button from "@material-ui/core/Button";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import styled from "styled-components";
+
+import { Dashboard } from "./containers/Dashboard";
+
+const Container = styled.div`
+  min-height: 100vh;
+`;
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <Button variant="contained">Button</Button>
-    </div>
+    <Container>
+      <Router>
+        <Route path="/" exact component={Dashboard} />
+      </Router>
+    </Container>
   );
 };
 
